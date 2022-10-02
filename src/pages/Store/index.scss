@@ -1,0 +1,15 @@
+@use '../../index.scss';
+
+.store{
+    
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    padding: 0 50px;
+
+    
+}
+
+

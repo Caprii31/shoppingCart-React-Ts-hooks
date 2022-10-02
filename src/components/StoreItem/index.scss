@@ -1,0 +1,49 @@
+@use '../../index.scss';
+
+.storecard{
+    background-color: white;
+    font-family: index.$main-font;
+    border: solid 1px #ced4da;
+    height: fit-content;
+
+        .storecard__details{
+            padding: 10px 15px;
+            line-height:50px;
+
+            .storecard__info{
+                display: flex;
+                justify-content:space-between;
+                
+                
+
+
+                p{
+                    font-size: 1rem;
+                    font-weight: bold;
+                    color: #6c757d;
+                }
+
+            }
+            .shoppingcard__btn{
+                width: 100%;
+                padding: 10px;
+                background-color: #0466c8;
+                border: none;
+                color: white;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                border-radius: 5px;
+                cursor: pointer;
+    
+            }
+        }
+        
+        img{
+           width: 100%;
+           height: 200px;
+           object-fit: cover;
+        }
+
+        
+
+}

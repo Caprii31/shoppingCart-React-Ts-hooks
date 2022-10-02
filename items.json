@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Book",
+      "price": 10.99,
+      "imgUrl": "./src/utilities/thought-catalog-o0Qqw21-0NI-unsplash.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "price": 1199,
+      "imgUrl": "./src/utilities/kari-shea-1SAnrIxw5OY-unsplash.jpg"
+    },
+    {
+      "id": 3,
+      "name": "grocery",
+      "price": 1.05,
+      "imgUrl": "./src/utilities/nrd-D6Tu_L3chLE-unsplash.jpg"
+    },
+    {
+      "id": 4,
+      "name": "tools",
+      "price": 14000,
+      "imgUrl": "./src/utilities/katie-rodriguez-NP9kbCXeVK0-unsplash.jpg"
+    },
+    {
+      "id": 5,
+      "name": "skicare",
+      "price": 300,
+      "imgUrl": "./src/utilities/lume-wellness-_HXI367NQrs-unsplash.jpg"
+    },
+    {
+      "id": 6,
+      "name": "clothes",
+      "price": 280,
+      "imgUrl": "./src/utilities/shanna-camilleri-ljNQxfyN7AM-unsplash.jpg"
+    },
+    {
+      "id": 7,
+      "name": "electrics",
+      "price": 1000,
+      "imgUrl": "./src/utilities/davide-boscolo-gz9njd0zYbQ-unsplash.jpg"
+    }
+  ]

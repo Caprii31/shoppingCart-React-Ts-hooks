@@ -1,0 +1,57 @@
+@use '../../index.scss';
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 50px;
+    padding:  40px 50px;
+    font-family: index.$main-font;
+    box-shadow:  0px 2px 3px #ced4da ;    
+    
+
+
+    .logo__container{
+
+        h1{
+            font-family: index.$logo-font;
+            font-size: 3rem;
+        }
+    }
+
+    .nav__items{
+
+       display: flex;
+
+       
+        
+        .nav__items--link{
+            
+            text-decoration: none;
+            padding: 10px 50px;
+            color: black;
+            font-weight: bold;
+            transition: all ease 0.2s;
+            width: fit-content;
+            
+
+            &:hover{
+                color: white;
+                background-color:black;
+            }
+        }
+
+        .shopping__cart{
+            border: 1px solid black;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    
+}
